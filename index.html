@@ -60,7 +60,7 @@ if (isMarried) {
 
 /*************************************
 Boolean logic
-*/
+
 
 // var firstName = "John";
 // var age = 16;
@@ -74,7 +74,7 @@ if (age < 13) {
     } else {
     // console.log(firstName + " is a man")
 }
-
+*/
 /*************************************
 The Ternary Operator and Switch Statements
 
@@ -106,6 +106,78 @@ switch (job) {
 
 }
 */
+
+/********************
+* code practice
+
+
+var teamJohn = [89, 120, 103];
+var teamMike = [116, 94, 123];
+
+var average = (john, mike) => {
+    var avgJ = 0;
+    var avgM = 0;
+ for (i in john) {
+    avgJ = john[i] + avgJ;
+ }
+ for (k in mike) {
+    avgM = mike[k] + avgM;
+ }
+avgJ /= 3;
+avgM /= 3;
+var winner = avgJ > avgM ? "John is the winner" : "Mike is the winner"
+return winner;
+}
+
+console.log(average(teamJohn,teamMike));
+
+*/
+
+// var tip1 = 124;
+// var tip2 = 48;
+// var tip3 = 268;
+// var bills = [];
+// var billsTip = [];
+
+// function tipCalculator(tip) {
+//     bills.push(tip);
+//     if (tip < 50) {
+//         return billsTip.push(tip + tip * 0.2);
+//     } else if (tip > 50 && tip < 200) {
+//         return billsTip.push(tip + tip * 0.15);
+//     } else if (tip > 200) {
+//         return billsTip.push(tip + tip * 0.1);
+//     }
+// }
+
+// tipCalculator(124);
+// tipCalculator(48);
+// tipCalculator(268);
+// console.log(`bills are ${bills} and bills tip are ${billsTip}`);
+
+
+// var user = {
+//     name: "John",
+//     lastName: "Nemeth",
+//     birthYear: "1987",
+//     ageCal: function () {
+//         return this.age = 2018 - this.birthYear;
+//     }
+// }
+// test = new user();
+// console.log(test);
+
+// x = 12;
+// switch (x) {
+//     case true:
+//     console.log("true");
+//     break;
+//     case false:
+//     console.log("false")
+//     break;
+//     default:
+//     console.log("undefined")
+// }
 
     </script>
 </body>
