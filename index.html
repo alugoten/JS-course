@@ -8,6 +8,7 @@
 </head>
 <body>
     <script>
+/*
     var markMass = 78;
     var johnMass = 92;
     var markHeight = 1.69;
@@ -16,7 +17,8 @@
     var markBMI = markMass / (markHeight*markHeight);
     var johnBMI = johnMass / (johnHeight*johnHeight);
     var compare = markBMI > johnBMI;
-    console.log(`Is Mark's BMI higher than John's ? ${compare}`);
+    // console.log(`Is Mark's BMI higher than John's ? ${compare}`);
+
 
 
 
@@ -26,10 +28,85 @@
     };
 
     if (name()) {
-        console.log("true");
+        // console.log("true");
     } else {
-        console.log("false");        
+        // console.log("false");        
     }
+
+    var now = 2018;
+    var yearJohn = 1989;
+    var fullAge = 18;
+    var isFullAge = now - yearJohn >= fullAge;
+    // console.log(isFullAge);
+
+*/
+
+/***************************
+IF / else statements
+
+
+var firstName = "John";
+var civilStatus = "single";
+
+var isMarried = true;
+
+
+if (isMarried) {
+    // console.log(firstName + " is married!");
+} else {
+    // console.log(firstName + " is single!");    
+}
+*/
+
+/*************************************
+Boolean logic
+*/
+
+// var firstName = "John";
+// var age = 16;
+
+if (age < 13) {
+    // console.log(firstName + " is a boy");
+} else if (age >= 13 && age < 20) {
+    // console.log(firstName + " is a teenager");
+    } else if (age >= 20 || age < 30) {
+    //  console.log(firstName + " is a young man");
+    } else {
+    // console.log(firstName + " is a man")
+}
+
+/*************************************
+The Ternary Operator and Switch Statements
+
+
+var firstName = "John";
+var age = 16;
+
+age <= 18 ? console.log(firstName + " drinks beer.")
+: console.log(firstName + " drinks juice.")
+
+var drink = age <= 18 ? "beer" : "juice";
+console.log(drink);
+
+var job = "teacher";
+switch (job) {
+    case "teacher":
+        console.log(firstName+ " teaches kids how to code");
+        break;
+    case "driver":   
+        console.log(firstName+ " teaches kids how to drive");
+        break;
+    case "designer":
+        console.log(firstName+ " teaches kids how to design");
+        break;
+    default:
+        console.log(firstName+ " does something else");
+
+
+
+}
+*/
+
     </script>
 </body>
 </html>
